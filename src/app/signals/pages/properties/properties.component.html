@@ -1,0 +1,35 @@
+<h1>Mutaciones</h1>
+<hr>
+
+<div class="row">
+  <div class="col-6">
+    <input
+      #txtEmail
+      class="form-control mb-2"
+      type="text"
+      (input)="onFieldUpdate('email', txtEmail.value)"
+    >
+
+    <input
+      #txtFirstName
+      class="form-control mb-2"
+      type="text"
+      (input)="onFieldUpdate('first_name', txtFirstName.value)"
+    >
+
+    <input
+      #txtLastName
+      class="form-control mb-2"
+      type="text"
+      (input)="onFieldUpdate('last_name', txtLastName.value)"
+    >
+  </div>
+
+  <div class="col-6">
+
+    <pre>
+      {{ 'asd '}}
+    </pre>
+
+  </div>
+</div>
